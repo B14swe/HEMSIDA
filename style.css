@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Monaco', monospace;
+}
+
+.navbar{
+    background-color: black;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+    display: fixed;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: sticky;
+    top: 15px;
+    z-index: 999;
+    
+
+}
+
+.navbar_contain{
+    font-size: x-large;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    height: 90px;
+    z-index: 1;
+    width: 100%;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0 500px;
+    height: 100px;
+
+}
+
+.navbar input[type=text]{
+float: right;
+padding: 6px;
+border: none;
+margin-top: 0px;
+margin-right: 16px;
+font-size: 17px;
+}
+
+li{
+    display: inline;
+}
+
+body{
+    font-family: 'Monaco New', Courier, monospace;
+}
+h1{
+    font-family: 'Monaco', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+}
